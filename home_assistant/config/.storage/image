@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "93bbcaf4109a9fe01122fa01645743d2",
+        "filesize": 52893,
+        "content_type": "image/jpeg",
+        "name": "bk.jpg",
+        "uploaded_at": "2024-09-09T17:34:55.475884+00:00"
+      },
+      {
+        "id": "4139c11fb54facf576d0594b71ece741",
+        "filesize": 61632,
+        "content_type": "image/jpeg",
+        "name": "bk.jpg",
+        "uploaded_at": "2024-09-09T18:06:46.208564+00:00"
+      },
+      {
+        "id": "7e29be2a7b4de8614b24155ccc02c9f5",
+        "filesize": 13191,
+        "content_type": "image/jpeg",
+        "name": "greenhouse.jfif",
+        "uploaded_at": "2024-09-09T18:08:09.666454+00:00"
+      },
+      {
+        "id": "50291f684321f7798ece8d94e25739a0",
+        "filesize": 121140,
+        "content_type": "image/jpeg",
+        "name": "istockphoto-505307313-612x612.jpg",
+        "uploaded_at": "2024-09-09T18:09:24.927051+00:00"
+      }
+    ]
+  }
+}

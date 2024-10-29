@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "minor_version": 7,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "phong_khach",
+        "labels": [],
+        "name": "Phòng khách",
+        "picture": null,
+        "created_at": "2024-09-04T13:18:39.931537+00:00",
+        "modified_at": "2024-09-04T13:18:39.931542+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "phong_bep",
+        "labels": [],
+        "name": "Phòng bếp",
+        "picture": null,
+        "created_at": "2024-09-04T13:18:39.931968+00:00",
+        "modified_at": "2024-09-04T13:18:39.931971+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "phong_ngu",
+        "labels": [],
+        "name": "Phòng ngủ",
+        "picture": null,
+        "created_at": "2024-09-04T13:18:39.932057+00:00",
+        "modified_at": "2024-09-04T13:18:39.932059+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": "mdi:greenhouse",
+        "id": "green_house_iot",
+        "labels": [],
+        "name": "Green House IOT",
+        "picture": "/api/image/serve/93bbcaf4109a9fe01122fa01645743d2/512x512",
+        "created_at": "2024-09-09T17:30:20.677233+00:00",
+        "modified_at": "2024-09-09T17:34:58.721467+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "hoang",
+        "name": "hoang",
+        "user_id": "d76e4be71d9242a5aa01d55d4d82e622",
+        "device_trackers": [
+          "device_tracker.hoag_bui"
+        ]
+      }
+    ]
+  }
+}

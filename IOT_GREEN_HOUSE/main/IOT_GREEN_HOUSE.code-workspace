@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"light_sensor.h": "c",
+			"soil_moisture.h": "c",
+			"adc_oneshot.h": "c",
+			"control_devices.h": "c",
+			"esp_log.h": "c",
+			"esp_rom_sys.h": "c",
+			"mqtt_client.h": "c"
+		}
+	}
+}

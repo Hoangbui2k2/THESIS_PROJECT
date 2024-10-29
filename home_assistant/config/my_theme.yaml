@@ -1,0 +1,7 @@
+my_custom_theme:
+  primary-color: "#3498db"
+  accent-color: "#e74c3c"
+  background-color: "#f0f0f0"
+  card-background-color: "#ffffff"
+  text-color: "#000000"
+  header-height: "48px"

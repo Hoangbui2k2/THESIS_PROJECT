@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.hoang","state":"not_home","attributes":{"editable":true,"id":"hoang","device_trackers":["device_tracker.hoag_bui"],"latitude":10.810271342842011,"longitude":106.62974406732859,"gps_accuracy":27,"source":"device_tracker.hoag_bui","user_id":"d76e4be71d9242a5aa01d55d4d82e622","friendly_name":"hoang"},"last_changed":"2024-10-29T01:29:53.167665+00:00","last_reported":"2024-10-29T01:29:55.734558+00:00","last_updated":"2024-10-29T01:29:55.734558+00:00","context":{"id":"01JBAY9M8PGHQ45BW9ZAP266NA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2024-10-29T01:29:54.319750+00:00","last_reported":"2024-10-29T01:29:54.319750+00:00","last_updated":"2024-10-29T01:29:54.319750+00:00","context":{"id":"01JBAY9JWFMW0VRESRX89DDJC4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.hoag_bui_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Hoag_bui Focus"},"last_changed":"2024-10-29T01:29:54.725868+00:00","last_reported":"2024-10-29T01:29:54.725868+00:00","last_updated":"2024-10-29T01:29:54.725868+00:00","context":{"id":"01JBAY9K95A6N20A5A3GZ0WK57","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.hoag_bui","state":"not_home","attributes":{"source_type":"gps","battery_level":42,"latitude":10.810271342842011,"longitude":106.62974406732859,"gps_accuracy":27,"altitude":7.316400686693211,"vertical_accuracy":30,"friendly_name":"Hoag_bui"},"last_changed":"2024-10-29T01:29:54.727484+00:00","last_reported":"2024-10-29T01:29:54.727484+00:00","last_updated":"2024-10-29T01:29:54.727484+00:00","context":{"id":"01JBAY9K97EWMFDVG5TKYEFD51","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_battery_level","state":"9","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-outline","friendly_name":"Hoag_bui Battery Level"},"last_changed":"2024-10-29T01:29:54.728071+00:00","last_reported":"2024-10-29T01:29:54.728071+00:00","last_updated":"2024-10-29T01:29:54.728071+00:00","context":{"id":"01JBAY9K985R2W6CPTSCNXZNJX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 9,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_bssid","state":"cc:71:90:e7:a8:52","attributes":{"icon":"mdi:wifi-star","friendly_name":"Hoag_bui BSSID"},"last_changed":"2024-10-29T01:29:54.728276+00:00","last_reported":"2024-10-29T01:29:54.728276+00:00","last_updated":"2024-10-29T01:29:54.728276+00:00","context":{"id":"01JBAY9K98N1TZH3KEV6K0KB3R","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "cc:71:90:e7:a8:52",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_storage","state":"24.72","attributes":{"Available":"2,50 GB","Available (Important)":"17,94 GB","Available (Opportunistic)":"15,81 GB","Total":"63,97 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Hoag_bui Storage"},"last_changed":"2024-10-29T01:29:54.728436+00:00","last_reported":"2024-10-29T01:29:54.728436+00:00","last_updated":"2024-10-29T01:29:54.728436+00:00","context":{"id":"01JBAY9K98XKQ1Z01XW493XMZY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "24.72",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_battery_state","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-outline","friendly_name":"Hoag_bui Battery State"},"last_changed":"2024-10-29T01:29:54.728590+00:00","last_reported":"2024-10-29T01:29:54.728590+00:00","last_updated":"2024-10-29T01:29:54.728590+00:00","context":{"id":"01JBAY9K98QETRSJW1FN47845V","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_ssid","state":"My Home 3 sau","attributes":{"icon":"mdi:wifi","friendly_name":"Hoag_bui SSID"},"last_changed":"2024-10-29T01:29:54.728749+00:00","last_reported":"2024-10-29T01:29:54.728749+00:00","last_updated":"2024-10-29T01:29:54.728749+00:00","context":{"id":"01JBAY9K9852WVZM1YXDG68H81","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "My Home 3 sau",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Hoag_bui SIM 1"},"last_changed":"2024-10-29T01:29:54.728891+00:00","last_reported":"2024-10-29T01:29:54.728891+00:00","last_updated":"2024-10-29T01:29:54.728891+00:00","context":{"id":"01JBAY9K98HJZP0MR3VAGMJ5GB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Hoag_bui Geocoded Location"},"last_changed":"2024-10-29T01:29:54.729026+00:00","last_reported":"2024-10-29T01:29:54.729026+00:00","last_updated":"2024-10-29T01:29:54.729026+00:00","context":{"id":"01JBAY9K99ER1HG243KSQVZ2WQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_connection_type","state":"Cellular","attributes":{"Cellular Technology":"4G","icon":"mdi:signal","friendly_name":"Hoag_bui Connection Type"},"last_changed":"2024-10-29T01:29:54.729221+00:00","last_reported":"2024-10-29T01:29:54.729221+00:00","last_updated":"2024-10-29T01:29:54.729221+00:00","context":{"id":"01JBAY9K99ES15MRGVA3KJWN9M","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Cellular",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Hoag_bui Last Update Trigger"},"last_changed":"2024-10-29T01:29:54.729995+00:00","last_reported":"2024-10-29T01:29:54.729995+00:00","last_updated":"2024-10-29T01:29:54.729995+00:00","context":{"id":"01JBAY9K99CH6WR38PRKMK51QP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_app_version","state":"2024.9.4","attributes":{"icon":"mdi:cellphone","friendly_name":"Hoag_bui App Version"},"last_changed":"2024-10-29T01:29:54.730211+00:00","last_reported":"2024-10-29T01:29:54.730211+00:00","last_updated":"2024-10-29T01:29:54.730211+00:00","context":{"id":"01JBAY9K9AQPAYKS23C44XJCGH","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.4",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_location_permission","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Hoag_bui Location permission"},"last_changed":"2024-10-29T01:29:54.730376+00:00","last_reported":"2024-10-29T01:29:54.730376+00:00","last_updated":"2024-10-29T01:29:54.730376+00:00","context":{"id":"01JBAY9K9AT0575WRMQXQZC7CF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.hoag_bui_focus_2","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Hoag_bui Focus"},"last_changed":"2024-10-29T01:29:54.730878+00:00","last_reported":"2024-10-29T01:29:54.730878+00:00","last_updated":"2024-10-29T01:29:54.730878+00:00","context":{"id":"01JBAY9K9A23B983C9202SKYWC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_battery_state_2","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-charging-60","friendly_name":"Hoag_bui Battery State"},"last_changed":"2024-10-29T01:29:54.731624+00:00","last_reported":"2024-10-29T01:29:54.731624+00:00","last_updated":"2024-10-29T01:29:54.731624+00:00","context":{"id":"01JBAY9K9BT1FNGKQR8H087PYQ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_storage_2","state":"25.24","attributes":{"Available":"2,90 GB","Available (Important)":"18,39 GB","Available (Opportunistic)":"16,15 GB","Total":"63,97 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Hoag_bui Storage"},"last_changed":"2024-10-29T01:29:54.731788+00:00","last_reported":"2024-10-29T01:29:54.731788+00:00","last_updated":"2024-10-29T01:29:54.731788+00:00","context":{"id":"01JBAY9K9BESTMMEBRAA8EAYAD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "25.24",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_ssid_2","state":"My Home 3 sau","attributes":{"icon":"mdi:wifi","friendly_name":"Hoag_bui SSID"},"last_changed":"2024-10-29T01:29:54.731944+00:00","last_reported":"2024-10-29T01:29:54.731944+00:00","last_updated":"2024-10-29T01:29:54.731944+00:00","context":{"id":"01JBAY9K9BD1MKFXJZTTKZ8CRX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "My Home 3 sau",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_bssid_2","state":"cc:71:90:e7:a8:52","attributes":{"icon":"mdi:wifi-star","friendly_name":"Hoag_bui BSSID"},"last_changed":"2024-10-29T01:29:54.732089+00:00","last_reported":"2024-10-29T01:29:54.732089+00:00","last_updated":"2024-10-29T01:29:54.732089+00:00","context":{"id":"01JBAY9K9CYQYGEW4GJRSVXB9E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "cc:71:90:e7:a8:52",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_connection_type_2","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Hoag_bui Connection Type"},"last_changed":"2024-10-29T01:29:54.732252+00:00","last_reported":"2024-10-29T01:29:54.732252+00:00","last_updated":"2024-10-29T01:29:54.732252+00:00","context":{"id":"01JBAY9K9CTGMAQR7JA56HTP0P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_sim_1_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Hoag_bui SIM 1"},"last_changed":"2024-10-29T01:29:54.732390+00:00","last_reported":"2024-10-29T01:29:54.732390+00:00","last_updated":"2024-10-29T01:29:54.732390+00:00","context":{"id":"01JBAY9K9CS7145QXRPASE6TKG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_location_permission_2","state":"Authorized Always","attributes":{"icon":"mdi:map","friendly_name":"Hoag_bui Location permission"},"last_changed":"2024-10-29T01:29:54.732528+00:00","last_reported":"2024-10-29T01:29:54.732528+00:00","last_updated":"2024-10-29T01:29:54.732528+00:00","context":{"id":"01JBAY9K9CD417XC4YJTG8QJWB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized Always",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_geocoded_location_2","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Hoag_bui Geocoded Location"},"last_changed":"2024-10-29T01:29:54.732662+00:00","last_reported":"2024-10-29T01:29:54.732662+00:00","last_updated":"2024-10-29T01:29:54.732662+00:00","context":{"id":"01JBAY9K9C5JFB7QZEZ8WYMRRP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_app_version_2","state":"2024.9.4","attributes":{"icon":"mdi:cellphone","friendly_name":"Hoag_bui App Version"},"last_changed":"2024-10-29T01:29:54.732796+00:00","last_reported":"2024-10-29T01:29:54.732796+00:00","last_updated":"2024-10-29T01:29:54.732796+00:00","context":{"id":"01JBAY9K9C86ECWST8KYMJKHTD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.9.4",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_last_update_trigger_2","state":"Periodic","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Hoag_bui Last Update Trigger"},"last_changed":"2024-10-29T01:29:54.732928+00:00","last_reported":"2024-10-29T01:29:54.732928+00:00","last_updated":"2024-10-29T01:29:54.732928+00:00","context":{"id":"01JBAY9K9CPQ236CDJ6X7C6E60","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.hoag_bui_battery_level_2","state":"63","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-60","friendly_name":"Hoag_bui Battery Level"},"last_changed":"2024-10-29T01:29:54.733078+00:00","last_reported":"2024-10-29T01:29:54.733078+00:00","last_updated":"2024-10-29T01:29:54.733078+00:00","context":{"id":"01JBAY9K9DMFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 63,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-10-29T01:29:54.837445+00:00","last_reported":"2024-10-29T01:29:54.837445+00:00","last_updated":"2024-10-29T01:29:54.837445+00:00","context":{"id":"01JBAY9KCNFTSZR1M5XAK7XSR8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"light.green_house_light","state":"unknown","attributes":{"supported_color_modes":["brightness"],"color_mode":null,"brightness":null,"friendly_name":"Green House Light","supported_features":0},"last_changed":"2024-10-29T06:36:03.005378+00:00","last_reported":"2024-10-29T06:36:03.005378+00:00","last_updated":"2024-10-29T06:36:03.005378+00:00","context":{"id":"01JBBFT51XT2APZB4C48ZATCTQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.pump_irr","state":"off","attributes":{"assumed_state":true,"friendly_name":"Pump IRR"},"last_changed":"2024-10-29T06:36:03.005491+00:00","last_reported":"2024-10-29T06:36:03.005491+00:00","last_updated":"2024-10-29T06:36:03.005491+00:00","context":{"id":"01JBBFT51XY65KZ04G4EQ8GAYB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.pump_mist","state":"off","attributes":{"assumed_state":true,"friendly_name":"Pump Mist"},"last_changed":"2024-10-29T06:36:03.005524+00:00","last_reported":"2024-10-29T06:36:03.005524+00:00","last_updated":"2024-10-29T06:36:03.005524+00:00","context":{"id":"01JBBFT51XTT5YC2KQ9T5NSPAX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.fan_blow","state":"on","attributes":{"assumed_state":true,"friendly_name":"Fan Blow"},"last_changed":"2024-10-29T06:36:03.005544+00:00","last_reported":"2024-10-29T06:36:03.005544+00:00","last_updated":"2024-10-29T06:36:03.005544+00:00","context":{"id":"01JBBFT51XA4D7C8P70SPTJKDG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.fan_exh","state":"on","attributes":{"assumed_state":true,"friendly_name":"Fan EXH"},"last_changed":"2024-10-29T06:36:03.005563+00:00","last_reported":"2024-10-29T06:36:03.005563+00:00","last_updated":"2024-10-29T06:36:03.005563+00:00","context":{"id":"01JBBFT51XFMCPC7HHY5WR64KD","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"number.thresh_hold_temperature","state":"3.0","attributes":{"min":0.0,"max":50.0,"step":1.0,"mode":"auto","assumed_state":true,"friendly_name":"Thresh Hold Temperature"},"last_changed":"2024-10-29T06:36:03.005717+00:00","last_reported":"2024-10-29T06:36:03.005717+00:00","last_updated":"2024-10-29T06:36:03.005717+00:00","context":{"id":"01JBBFT51X008M5PXC9MYAXCDV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 50.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 3.0
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"number.thresh_hold_humidity","state":"81.0","attributes":{"min":0.0,"max":100.0,"step":1.0,"mode":"auto","assumed_state":true,"friendly_name":"Thresh Hold Humidity"},"last_changed":"2024-10-29T06:36:03.005750+00:00","last_reported":"2024-10-29T06:36:03.005750+00:00","last_updated":"2024-10-29T06:36:03.005750+00:00","context":{"id":"01JBBFT51XYEFQ8HQCNFYCWC0K","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 100.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 81.0
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"number.thresh_hold_moisture_soil","state":"63.0","attributes":{"min":0.0,"max":100.0,"step":1.0,"mode":"auto","assumed_state":true,"friendly_name":"Thresh Hold Moisture Soil"},"last_changed":"2024-10-29T06:36:03.005773+00:00","last_reported":"2024-10-29T06:36:03.005773+00:00","last_updated":"2024-10-29T06:36:03.005773+00:00","context":{"id":"01JBBFT51XRSPA66SHNGSB0DZ0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 100.0,
+        "native_min_value": 0.0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 63.0
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.humidity","state":"unknown","attributes":{"unit_of_measurement":"%","friendly_name":"Humidity"},"last_changed":"2024-10-29T06:36:03.005874+00:00","last_reported":"2024-10-29T06:36:03.005874+00:00","last_updated":"2024-10-29T06:36:03.005874+00:00","context":{"id":"01JBBFT51XQKAMM7GQQH4GJPAT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.temperature","state":"unknown","attributes":{"unit_of_measurement":"°C","friendly_name":"Temperature"},"last_changed":"2024-10-29T06:36:03.005906+00:00","last_reported":"2024-10-29T06:36:03.005906+00:00","last_updated":"2024-10-29T06:36:03.005906+00:00","context":{"id":"01JBBFT51XS8T1QAR404PBMEH7","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "°C"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.moisture_soil","state":"unknown","attributes":{"unit_of_measurement":"%","friendly_name":"Moisture Soil"},"last_changed":"2024-10-29T06:36:03.005926+00:00","last_reported":"2024-10-29T06:36:03.005926+00:00","last_updated":"2024-10-29T06:36:03.005926+00:00","context":{"id":"01JBBFT51XMPWDDJ6JAGXRAQ0Q","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.light_level","state":"unknown","attributes":{"unit_of_measurement":"Lux","friendly_name":"Light Level"},"last_changed":"2024-10-29T06:36:03.005945+00:00","last_reported":"2024-10-29T06:36:03.005945+00:00","last_updated":"2024-10-29T06:36:03.005945+00:00","context":{"id":"01JBBFT51X0WN0TM9TGKJSD1E1","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": "Lux"
+      },
+      "last_seen": "2024-10-29T10:00:26.310287+00:00"
+    }
+  ]
+}

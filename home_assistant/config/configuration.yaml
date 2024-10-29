@@ -1,0 +1,124 @@
+#Configuration.yaml
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+mqtt:
+  light: 
+  - name: "Green House Light"
+    state_topic: "home/green_house/light_level"
+    command_topic: "home/green_house/light_level/set"
+    brightness_state_topic: "home/green_house/light_level"
+    brightness_command_topic: "home/green_house/light_level/brightness/set"
+    brightness_scale: 255
+    payload_on: '{"state": "ON"}'
+    payload_off: '{"state": "OFF"}'
+    # value_template: "{{ value_json.light_level }}"
+    # brightness_value_template: "{{ value_json.lux }}"
+    # command_template: >-
+    #   {"light_level": {{ value | int }}}
+    # brightness_command_template: >-
+    #   {"lux": {{ brightness | int }}}
+  
+  sensor:  
+  - name: "Humidity"
+    state_topic: "home/green_house/humidity"
+    unit_of_measurement: "%"
+    value_template: "{{ value_json.humidity }}"
+  - name: "Temperature"
+    state_topic: "home/green_house/temperature"
+    unit_of_measurement: "°C"
+    value_template: "{{ value_json.temperature }}"    
+  - name: "Moisture Soil"
+    state_topic: "home/green_house/moisture_soil"
+    unit_of_measurement: "%"
+    value_template: "{{ value_json.moisture_soil }}"
+  - name: "Light Level"
+    state_topic: "home/green_house/light_level"
+    unit_of_measurement: "Lux"
+    value_template: "{{ value_json.light_level }}"
+
+  number:
+  - name: "Thresh Hold Temperature"
+    state_topic: "home/green_house/threshold_temperature"
+    command_topic: "home/green_house/threshold_temperature/set"
+    min: 0
+    max: 50
+    step: 1
+    optimistic: true
+    value_template: "{{ value_json.threshold_temperature }}"
+    command_template: >-
+      {"threshold_temperature": {{ value | int }}}
+
+  - name: "Thresh Hold Humidity"
+    state_topic: "home/green_house/threshold_humidity"
+    command_topic: "home/green_house/threshold_humidity/set"
+    min: 0
+    max: 100
+    step: 1
+    optimistic: true
+    value_template: "{{ value_json.threshold_humidity }}"
+    command_template: >-
+      {"threshold_humidity": {{ value | int }}}
+
+  - name: "Thresh Hold Moisture Soil"
+    state_topic: "home/green_house/threshold_soil_moisture"
+    command_topic: "home/green_house/threshold_soil_moisture/set"
+    min: 0
+    max: 100
+    step: 1
+    optimistic: true
+    value_template: "{{ value_json.threshold_soil_moisture }}"
+    command_template: >-
+      {"threshold_soil_moisture": {{ value | int }}}
+
+  switch:
+  - name: "Pump IRR"
+    state_topic: "home/green_house/Pump_IRR/status"
+    command_topic: "home/green_house/Pump_IRR/set"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: true
+    qos: 0
+    retain: true
+  - name: "Pump Mist"
+    state_topic: "home/green_house/Pump_mist/status"
+    command_topic: "home/green_house/Pump_mist/set"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: true
+    qos: 0
+    retain: true
+  - name: "Fan Blow"
+    state_topic: "home/green_house/Fan_blow/status"
+    command_topic: "home/green_house/Fan_blow/set"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: true
+    qos: 0
+    retain: true
+  - name: "Fan EXH"
+    state_topic: "home/green_house/Fan_EXH/status"
+    command_topic: "home/green_house/Fan_EXH/set"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    optimistic: true
+    qos: 0
+    retain: true
+
+        
+        

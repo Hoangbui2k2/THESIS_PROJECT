@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "created_at": "2024-09-04T12:41:30.204429+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "sun",
+        "entry_id": "01J6YGVSAWDY694JTWCMPQXM8N",
+        "minor_version": 1,
+        "modified_at": "2024-09-04T12:41:30.204445+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "title": "Sun",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-04T13:19:08.270576+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "shopping_list",
+        "entry_id": "01J6YK0PFE86ECWST8KYMJKHTD",
+        "minor_version": 1,
+        "modified_at": "2024-09-04T13:19:08.270579+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Shopping list",
+        "unique_id": "shopping_list",
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-04T13:19:08.763674+00:00",
+        "data": {},
+        "disabled_by": null,
+        "domain": "radio_browser",
+        "entry_id": "01J6YK0PYVSRYBCWK0MAWWWWW5",
+        "minor_version": 1,
+        "modified_at": "2024-09-04T13:19:08.763678+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Radio Browser",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-04T13:19:08.797739+00:00",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "disabled_by": null,
+        "domain": "google_translate",
+        "entry_id": "01J6YK0PZX4834FD6F7MYG56BG",
+        "minor_version": 1,
+        "modified_at": "2024-09-04T13:19:08.797740+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Google Translate text-to-speech",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-04T13:19:08.843381+00:00",
+        "data": {
+          "track_home": true
+        },
+        "disabled_by": null,
+        "domain": "met",
+        "entry_id": "01J6YK0Q1BF25ESYKV9K0EFXXG",
+        "minor_version": 1,
+        "modified_at": "2024-09-04T13:19:08.843385+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "title": "Home",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-09-04T13:32:55.717190+00:00",
+        "data": {
+          "broker": "54.251.103.14",
+          "port": 1883,
+          "username": "thinh",
+          "password": "thinh",
+          "discovery": true,
+          "discovery_prefix": "homeassistant",
+          "birth_message": {
+            "topic": "homeassistant/status",
+            "payload": "online",
+            "qos": 0,
+            "retain": false
+          },
+          "will_message": {
+            "topic": "homeassistant/status",
+            "payload": "offline",
+            "qos": 0,
+            "retain": false
+          }
+        },
+        "disabled_by": null,
+        "domain": "mqtt",
+        "entry_id": "01J6YKSYH5S5B586JJ7VFH10SX",
+        "minor_version": 1,
+        "modified_at": "2024-09-09T17:38:25.463946+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "title": "54.251.103.14",
+        "unique_id": null,
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-09T13:21:24.335188+00:00",
+        "data": {
+          "device_id": "4A8A1CBC-75C3-469A-AEC2-A1B9C9369DB6",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "cYtrQ8RHKULshhN-IJTEBO:APA91bFnC97RaLopDAXtms3U1X3RShuB0dIZ6strvQgjKiZeBOt0z_rcPhCSbK0BEZWMHbBIs47XZWunWl0KNzEOSWG4G2SGKEfaYuUJCqgIy5LtGq84Ex57krFy_w6NT-MPac_4FiMd"
+          },
+          "device_name": "Hoag_bui",
+          "os_version": "16.7.10",
+          "os_name": "iOS",
+          "app_id": "io.robbie.HomeAssistant",
+          "supports_encryption": true,
+          "manufacturer": "Apple",
+          "app_name": "Home Assistant",
+          "model": "iPhone10,5",
+          "app_version": "2024.9.4 (2024.905)",
+          "webhook_id": "75df5d23601e398e7a832231f3db319bb733cdcb4b91b8b6fa4a1654c15be93c",
+          "secret": "c4b28acefba1cae53aad8c294317afeddcb32ce20a4cf7ea95690aaf40c6e107",
+          "user_id": "d76e4be71d9242a5aa01d55d4d82e622",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J9RQ20BF93ZC8DG5CCZJ0J23",
+        "minor_version": 1,
+        "modified_at": "2024-10-09T13:21:24.428876+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Hoag_bui",
+        "unique_id": "io.robbie.HomeAssistant-4A8A1CBC-75C3-469A-AEC2-A1B9C9369DB6",
+        "version": 1
+      },
+      {
+        "created_at": "2024-10-09T14:43:04.064284+00:00",
+        "data": {
+          "app_name": "Home Assistant",
+          "device_name": "Hoag_bui",
+          "manufacturer": "Apple",
+          "app_id": "io.robbie.HomeAssistant",
+          "model": "iPhone10,5",
+          "supports_encryption": true,
+          "app_version": "2024.9.4 (2024.905)",
+          "device_id": "4A8A1CBC-75C3-469A-AEC2-A1B9C9369DB6",
+          "os_name": "iOS",
+          "app_data": {
+            "push_token": "cYtrQ8RHKULshhN-IJTEBO:APA91bFnC97RaLopDAXtms3U1X3RShuB0dIZ6strvQgjKiZeBOt0z_rcPhCSbK0BEZWMHbBIs47XZWunWl0KNzEOSWG4G2SGKEfaYuUJCqgIy5LtGq84Ex57krFy_w6NT-MPac_4FiMd",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "os_version": "16.7.10",
+          "webhook_id": "95b419e416a463b72ad40f68f3966faa6dda5add2e0b4586d53b2caba22137d3",
+          "secret": "8685f4ecfea30bbdae09d537018921f9e72de3ae87d7c4982c96d532e046169e",
+          "user_id": "d76e4be71d9242a5aa01d55d4d82e622",
+          "no_legacy_encryption": true
+        },
+        "disabled_by": null,
+        "domain": "mobile_app",
+        "entry_id": "01J9RVQH80FRBS35ZCZAPX5JPB",
+        "minor_version": 1,
+        "modified_at": "2024-10-09T14:43:04.365894+00:00",
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "title": "Hoag_bui",
+        "unique_id": "io.robbie.HomeAssistant-4A8A1CBC-75C3-469A-AEC2-A1B9C9369DB6",
+        "version": 1
+      }
+    ]
+  }
+}

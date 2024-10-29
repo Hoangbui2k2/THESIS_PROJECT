@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "id": "map",
+        "icon": "mdi:map",
+        "title": "Map",
+        "url_path": "map",
+        "show_in_sidebar": true,
+        "require_admin": false,
+        "mode": "storage"
+      },
+      {
+        "id": "green_house_iot",
+        "show_in_sidebar": true,
+        "icon": "mdi:greenhouse",
+        "title": "Green House IOT",
+        "require_admin": false,
+        "mode": "storage",
+        "url_path": "green-house-iot"
+      }
+    ]
+  }
+}
